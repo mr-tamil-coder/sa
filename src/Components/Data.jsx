@@ -1,9 +1,9 @@
-import material from '../../assets/material.svg';
-import collaboration from '../../assets/collaboration.svg';
-import showrroom from '../../assets/showrroom.svg';
-import paint from '../../assets/paint.svg';
-import coming from '../../assets/coming.svg';
- const cardData = [
+import material from '../assets/material.svg';
+import collaboration from '../assets/collaboration.svg';
+import showrroom from '../assets/showrroom.svg';
+import paint from '../assets/paint.svg';
+import coming from '../assets/coming.svg';
+ const Data = [
     {
       image: showrroom,
       title: "Showroom",
@@ -31,4 +31,4 @@ import coming from '../../assets/coming.svg';
     }
   ];
   
-export default cardData;
+export default Data;
