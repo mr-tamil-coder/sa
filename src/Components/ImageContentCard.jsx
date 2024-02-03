@@ -2,7 +2,6 @@ import React from "react";
 import Data from "./Data";
 import ImageContent from "./ImageContent";
 
-
 function ImageComponentCard() {
   console.log(Data);
   return (

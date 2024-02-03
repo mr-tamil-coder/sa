@@ -1,5 +1,4 @@
-import "./App.css";
-import "./Components/card.css"
+import "./Components/Card.css"
 import ImageComponentCard from "./Components/ImageContentCard";
 
 function App() {
