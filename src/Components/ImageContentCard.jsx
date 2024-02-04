@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./Data";
 import ImageContent from "./ImageContent";
+import "./Card.css"
 
 function ImageComponentCard() {
   console.log(Data);
