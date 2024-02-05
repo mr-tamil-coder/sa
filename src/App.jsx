@@ -5,10 +5,8 @@ import CustomCard from "./Components/Responsive/CustomCard";
 function App() {
   return (
     <>
-      {/* <CustomCard /> */}
-      {/* <ImageComponentCard />
-       */}
-       <Screen></Screen>
+     
+       <Screen />
     </>
   );
 }

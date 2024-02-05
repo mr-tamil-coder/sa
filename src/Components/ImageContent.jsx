@@ -8,23 +8,25 @@ function ImageContent({ id, image, title, subtitle }) {
   return (
     <div>
       <Card
-        className="text-white p-3 m-5 "
+        className="text-white m-5  "
         style={{
           backgroundColor: "#2f2f2e",
           minWidth: "20rem",
           margin: "0 10px",
+          borderRadius:"15px"
         }}
       >
         <Row className="align-items-start justify-content-start">
-          <Col xs={12} lg={6} className="">
-            <div>
-              <Card.Img
-                variant="top"
-                src={image}
-                className="w-100" // Ensure the image fills its container
-              />
-            </div>
-          </Col>
+        <Col xs={12} lg={6} className="">
+  <div className="image-container">
+    <Card.Img
+      variant="top"
+      src={image}
+      className="w-100"
+    />
+  </div>
+</Col>
+
           <Col xs={12} lg={6} className="pl-lg-5 mt-3  ">
             <div className="d-flex flex-column justify-content-between  px-5">
               <div>
