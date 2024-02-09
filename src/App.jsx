@@ -1,13 +1,37 @@
-import "./Components/Card.css"
-import Screen from "./Components/Screen";
-import ImageComponentCard from "./Components/ImageContentCard";
-import CustomCard from "./Components/Responsive/CustomCard";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import BenefitCard from "./Benefits/BenefitCard";
+import Vertical from "./Benefits/Vertical";
+import ImageContent from "./Components/ImageContent";
+import Colloboration from "./Benefits/Colloboration";
+import MyComponent from "./Benefits/Benefits";
+import ShopImg from "./Benefits/Shop";
+import Revenue from "./Benefits/Revenue";
+import Benefits from "./Benefits/Benefits";
 function App() {
   return (
     <>
-     
-       <Screen />
+    <Benefits />
+    {/* <BenefitCard />    -- not yet completed */}
+        {/* <Colloboration /> */}
+    {/* <Vertical /> */}
+    {/* <ShopImg /> */}
+    {/* <MyComponent />       -- not yet completed */}
+
     </>
+  
+
+    // <Row>
+    //   <Col lg={4} md={6} xs={12}>
+    //     <BenefitCard />
+    //   </Col>
+    //   <Col lg={4} md={6} xs={12}>
+    //     <BenefitCard />
+    //   </Col>
+    //   <Col lg={4} md={6} xs={12}>
+    //     <BenefitCard />
+    //   </Col>
+    // </Row>
   );
 }
 
