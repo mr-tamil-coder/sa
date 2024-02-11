@@ -11,12 +11,11 @@ import Benefits from "./Benefits/Benefits";
 function App() {
   return (
     <>
-    <Benefits />
-    {/* <BenefitCard />    -- not yet completed */}
-        {/* <Colloboration /> */}
-    {/* <Vertical /> */}
-    {/* <ShopImg /> */}
-    {/* <MyComponent />       -- not yet completed */}
+    {/* <Benefits /> */}
+    <BenefitCard />   
+        {/* <Colloboration />
+    <Vertical />
+    <ShopImg /> */}
 
     </>
   
