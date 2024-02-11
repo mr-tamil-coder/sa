@@ -11,12 +11,13 @@ import Benefits from "./Benefits/Benefits";
 function App() {
   return (
     <>
-    {/* <Benefits /> */}
-    <BenefitCard />   
-        {/* <Colloboration />
-    <Vertical />
-    <ShopImg /> */}
-
+      
+      <Colloboration />
+      <Vertical />
+      <ShopImg />
+      <Revenue />
+      <Benefits />
+   <BenefitCard /> ---- working on currently 
     </>
   
 
