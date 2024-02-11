@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import BenefitCard from "./Benefits/BenefitCard";
 import Vertical from "./Benefits/Vertical";
-import ImageContent from "./Components/ImageContent";
+// import ImageContent from "./Components/ImageContent";
 import Colloboration from "./Benefits/Colloboration";
 import MyComponent from "./Benefits/Benefits";
 import ShopImg from "./Benefits/Shop";
@@ -11,13 +11,15 @@ import Benefits from "./Benefits/Benefits";
 function App() {
   return (
     <>
-      
+             <Benefits />
+
+         <BenefitCard />
+
       <Colloboration />
-      <Vertical />
-      <ShopImg />
       <Revenue />
-      <Benefits />
-   <BenefitCard /> ---- working on currently 
+      <ShopImg />
+      <Vertical />
+      
     </>
   
 

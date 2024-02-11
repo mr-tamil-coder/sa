@@ -11,12 +11,12 @@ function Benefits() {
   return (
     <div className="d-flex  "> 
       <Container className="m-5 bg-dark">
-      <div className="row">
+      <div className="row g-0 ">
         <div className="col-xs-12 col-lg-6">
           {/* Left side */}
           <div style={{ height: "450px" }}>
             {/* Content for left side */}
-            <div>
+            <div className="p-4">
               <img src={Commerce} alt="" />
             </div>
             <img
